@@ -1,7 +1,7 @@
 <template>
   <v-layout :column="$vuetify.breakpoint.xsOnly" justify-center align-center>
     <v-flex xs12 sm8 md10>
-      {{ article }}
+      <div v-html="$md.render(article.content)" />
     </v-flex>
     <!-- タブレット以上のサイドバー -->
     <v-flex xs12 sm4 md2>

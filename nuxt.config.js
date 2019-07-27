@@ -50,7 +50,8 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/eslint-module',
     '@nuxtjs/dotenv',
-    '@nuxtjs/moment'
+    '@nuxtjs/moment',
+    '@nuxtjs/markdownit'
   ],
   /*
    ** Axios module configuration
@@ -62,6 +63,18 @@ export default {
    */
   moment: {
     locales: ['ja']
+  },
+  markdownit: {
+    preset: 'default',
+    injected: true,
+    breaks: true,
+    html: true,
+    linkify: true,
+    typography: true,
+    xhtmlOut: true,
+    langPrefix: 'language-',
+    quotes: '“”‘’',
+    highlight: () => ''
   },
   /*
    ** vuetify module configuration
