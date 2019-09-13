@@ -1233,11 +1233,12 @@
     axios-retry "^3.1.2"
     consola "^2.7.1"
 
-"@nuxtjs/dotenv@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/dotenv/-/dotenv-1.3.0.tgz#fcfd8fa9da767ce1a79c11104ab998d610e23731"
+"@nuxtjs/dotenv@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/dotenv/-/dotenv-1.4.1.tgz#dd5abb98e22cc7ae27139d3aa606151034293128"
   dependencies:
-    dotenv "^6.0.0"
+    consola "^2.10.1"
+    dotenv "^8.1.0"
 
 "@nuxtjs/eslint-config@^0.0.1":
   version "0.0.1"
@@ -2727,9 +2728,9 @@ connect@^3.6.6, connect@^3.7.0:
     parseurl "~1.3.3"
     utils-merge "1.0.1"
 
-consola@^2.3.0, consola@^2.5.6, consola@^2.6.0, consola@^2.7.1, consola@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-2.9.0.tgz#57760e3a65a53ec27337f4add31505802d902278"
+consola@^2.10.1, consola@^2.3.0, consola@^2.5.6, consola@^2.6.0, consola@^2.7.1, consola@^2.9.0:
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-2.10.1.tgz#4693edba714677c878d520e4c7e4f69306b4b927"
 
 console-browserify@^1.1.0:
   version "1.1.0"
@@ -3329,9 +3330,9 @@ dot-prop@^4.1.0, dot-prop@^4.1.1:
   dependencies:
     is-obj "^1.0.0"
 
-dotenv@^6.0.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
+dotenv@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.1.0.tgz#d811e178652bfb8a1e593c6dd704ec7e90d85ea2"
 
 duplexer3@^0.1.4:
   version "0.1.4"
